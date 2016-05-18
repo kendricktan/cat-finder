@@ -9,7 +9,8 @@ cat_img = cv2.imread('cat.jpg')
 cat_gray = cv2.cvtColor(cat_img, cv2.COLOR_BGR2GRAY) # Convert to grayscale (since haarcascade uses it)
 
 # Find our cats!
-cat_faces = cat_cascade.detectMultiScale(cat_gray)
+# params - image, rejectLevels, levelWeights
+cat_faces = cat_cascade.detectMultiScale(cat_gray, 1.3, 5)
 
 # Draw rectangle onto region where cat face is found
 for (x, y, w, h) in cat_faces:
