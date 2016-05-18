@@ -1,6 +1,8 @@
 # cat-finder
 Finds cat faces in photos.
 
+![cat](http://i.imgur.com/G6ZxwGO.png)
+
 # Getting started
 
 # 1. Dependencies
