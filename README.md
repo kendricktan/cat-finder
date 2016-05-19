@@ -16,7 +16,8 @@ Finds cat faces in photos.
 4. [Download cat-finder repo and extract it](https://github.com/kendricktan/cat-finder/archive/master.zip)
 
 5. Fire up command prompt, cd into your directory and enter
-    python cat.py
+
+    `python cat.py`
 
 # Linux (Ubuntu) should work for debian as well
 
